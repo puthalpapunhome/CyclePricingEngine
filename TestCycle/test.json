@@ -1,0 +1,30 @@
+{
+   "frame":{
+      "top_tube":"985",
+      "down_tube":"948",
+      "seat_tube":"858",
+      "seat_stay":"857",
+      "chain_stay":"585"
+   },
+   "handle_bar_with_brakes":{
+      "handlebar_grip":"256",
+      "head_tube":"444",
+      "shock_absorber":"142",
+      "front_brakes":"142",
+      "fork":"148"
+   },
+   "seating":{
+      "saddle":"852",
+      "seat_post":"157"
+   },
+   "wheels":{
+      "spokes":"458",
+      "rim":"145",
+      "tube":"205",
+      "tyre":"145"
+   },
+   "chain_assembly":{
+      "chain":"158",
+      "chain_ring":"159"
+   }
+}
