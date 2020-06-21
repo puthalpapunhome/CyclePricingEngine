@@ -10,7 +10,7 @@ import com.cycleAPI.ConsumerProcvider.Producer;
 public class Test {
 
     public static void main(String[] args) {
-    	//maximium capacity 10
+    	//maximium  capacity 10
         BlockingQueue<Integer> queue = new LinkedBlockingQueue<>(10);
         
         new Thread(new Producer(queue)).start();
