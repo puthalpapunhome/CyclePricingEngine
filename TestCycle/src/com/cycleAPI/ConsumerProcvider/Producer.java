@@ -54,7 +54,9 @@ public class Producer implements Runnable {
 		}
 		 jsonObject1 = (JSONObject) obj1;
     }
-    
+    public Producer(BlockingQueue<Integer> queue) {
+        this.queue = queue;
+    }
     @Override
     public void run() {
 
@@ -108,7 +110,5 @@ public class Producer implements Runnable {
 
     }
 
-    public Producer(BlockingQueue<Integer> queue) {
-        this.queue = queue;
-    }
+   
 }
