@@ -20,7 +20,7 @@ import com.cycleAPI.model.WholeCycle;
 public class Producer implements Runnable {
 	public String dateGivenNewFormat = "";
 	public ArrayList<LinkedHashMap<String, String>> getWholeCyclegiven = new ArrayList<LinkedHashMap<String, String>>();
-	public final static String pathGiven = "D:/papun/personal/ecycling/request.json";
+	public final static String pathGiven = "C:/cycleApi/request.json";
 	public static JSONParser parser = new JSONParser();
 	private final BlockingQueue<Integer> queue;
 	public static JSONArray request = null;
@@ -48,7 +48,7 @@ public class Producer implements Runnable {
 		Object obj1 = null;
 		try {
 			obj1 = parser.parse(new FileReader(
-					"D:/papun/personal/ecycling/test.json"));
+					"C:/cycleApi/test.json"));
 		} catch (IOException | ParseException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
